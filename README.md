@@ -1,0 +1,2 @@
+# Projeto-Monitoramento-Ambientes
+Firmware de sistema que sustenta vários serviços: auferição de alta precisão de várias variáveis e sensores, sevidor web com dashboard atualizada em tempo real, servidor SNMP e agente-zabbix. O objetivo do projeto é monitorar uma ampla gama de variáveis em qualquer ambiente, além de ser escalável com outros módulos e metodologias. Transforma a infraestrutura física em ativos gerenciáveis.
