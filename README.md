@@ -2,14 +2,18 @@
 
 - Desenvolvido por: Lucas Coelho de Almeida
 
-- Objetivo: Firmware de sistema que sustenta v√°rios servi√ßos: auferi√ß√£o de alta precis√£o de v√°rias vari√°veis e sensores, sevidor web com dashboard atualizada em tempo real, servidor SNMP e agente-zabbix. O objetivo do projeto √© monitorar uma ampla gama de vari√°veis em qualquer ambiente, al√©m de ser escal√°vel com outros m√≥dulos e metodologias. Transforma a infraestrutura f√≠sica em ativos gerenci√°veis.
+- Objetivo: Firmware de sistema que sustenta v·rios serviÁos: auferiÁ„o de alta precis„o de v·rias vari·veis e sensores, sevidor web com dashboard atualizada em tempo real, servidor SNMP e agente-zabbix. O objetivo do projeto È monitorar uma ampla gama de vari·veis em qualquer ambiente, alÈm de ser escal·vel com outros mÛdulos e metodologias. Transforma a infraestrutura fÌsica em ativos gerenci·veis.
  
-- Forma de uso: Configurar o firmware para o dimensionamento do projeto, realizar a montagem do sistema e carregar o programa na placa. Configura√ß√µes de rede e data/hora podem ser feitas via acesso √† porta serial (indica-se o Putty).
+- Forma de uso: Configurar o firmware para o dimensionamento do projeto, realizar a montagem do sistema e carregar o programa na placa. ConfiguraÁıes de rede e data/hora podem ser feitas via acesso ‡ porta serial (indica-se o Putty).
 
-- OBS.1: O uso, a compreens√£o, configura√ß√£o, modifica√ß√µes e a implementa√ß√£o do projeto n√£o s√£o nada triviais, entre em contato caso precise de suporte.
+- OBS.1: O uso, a compreens„o, configuraÁ„o, modificaÁıes e a implementaÁ„o do projeto n„o s„o nada triviais, entre em contato caso precise de suporte.
 
-- Obs.2: Testado e funcional com a vers√£o 1.89 da IDE Arduino.
+- Obs.2: Testado e funcional com a vers„o 1.89 da IDE Arduino.
 
-- Obs.3: O sistema usa o OID "1.3.6.1.4.1.49191." que est√° cadastrado na IANA sob o ramo enterprise (Internet Assigned Numbers Authority).
+- Obs.3: O sistema usa o OID "1.3.6.1.4.1.49191." que est· cadastrado na IANA sob o ramo enterprise (Internet Assigned Numbers Authority).
 
-- Obs.4: Vers√£o 18.4 do sistema.
+- Obs.4: Vers„o 18.4 do sistema.
+
+- Obs.5: Necess·ria alteraÁ„o na biblioteca Agentuino para funcionamento adequado.
+
+- Obs.6: O agente-zabbix funciona corretamente atÈ a vers„o 3. A partir da vers„o 4, n„o funciona mais devido o envio ser em texto simples, deveria trocar pelo formul·rio padr„o do Zabbix. DÍ preferÍncia pelo uso do SNMP para soluÁıes prontas e do telnet para integraÁıes novas de programas em desenvolvimento.
